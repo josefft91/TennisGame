@@ -11,7 +11,7 @@ php -v
 
 If it is not installed instructions on how to install for your system can be found here: https://www.php.net/manual/en/install.php
 
-Composer was also used to install PHPUnit. For purposes of this task it has been included with the project in the ```./vendor``` directory, usually this directory would not be included with the source code. If the tests don't run you may also have to install composer (https://getcomposer.org/) and run the following command.
+Composer was used to install PHPUnit - you will have to run the following command if you wish to run the tests.
 
 ```bash
 composer install
